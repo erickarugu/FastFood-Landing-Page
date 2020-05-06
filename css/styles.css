@@ -1,0 +1,303 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+  font-family: 'Montserrat', sans-serif; }
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background: url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/mcdonalds-fries-are-offered-at-mcdonalds-at-made-in-america-news-photo-1026311378-1538173668.jpg);
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: overlay;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow-x: hidden; }
+
+body::-webkit-scrollbar {
+  width: 12px;
+  /* width of the entire scrollbar */ }
+
+body::-webkit-scrollbar-track {
+  background: purple;
+  /* color of the tracking area */ }
+
+body::-webkit-scrollbar-thumb {
+  background-color: orange;
+  /* color of the scroll thumb */
+  border-radius: 20px;
+  /* roundness of the scroll thumb */
+  border: 3px solid purple;
+  /* creates padding around scroll thumb */ }
+
+h1 {
+  font-size: 6rem;
+  font-weight: 900;
+  color: #fff; }
+
+h2 {
+  font-size: 4rem;
+  font-weight: 700;
+  color: #fff; }
+
+h3 {
+  font-size: 2rem;
+  font-weight: 400;
+  color: #fff; }
+
+hr {
+  height: 1rem;
+  border: none;
+  border-radius: 20px; }
+
+.btn {
+  display: flex;
+  align-items: center;
+  margin-top: 4rem;
+  font-size: 2rem;
+  color: #fff;
+  padding: 2rem 7rem; }
+  .btn:hover {
+    cursor: pointer;
+    color: #ccc;
+    transform: scale(1.01); }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+  font-family: 'Montserrat', sans-serif; }
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background: url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/mcdonalds-fries-are-offered-at-mcdonalds-at-made-in-america-news-photo-1026311378-1538173668.jpg);
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: overlay;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow-x: hidden; }
+
+body::-webkit-scrollbar {
+  width: 12px;
+  /* width of the entire scrollbar */ }
+
+body::-webkit-scrollbar-track {
+  background: purple;
+  /* color of the tracking area */ }
+
+body::-webkit-scrollbar-thumb {
+  background-color: orange;
+  /* color of the scroll thumb */
+  border-radius: 20px;
+  /* roundness of the scroll thumb */
+  border: 3px solid purple;
+  /* creates padding around scroll thumb */ }
+
+h1 {
+  font-size: 6rem;
+  font-weight: 900;
+  color: #fff; }
+
+h2 {
+  font-size: 4rem;
+  font-weight: 700;
+  color: #fff; }
+
+h3 {
+  font-size: 2rem;
+  font-weight: 400;
+  color: #fff; }
+
+hr {
+  height: 1rem;
+  border: none;
+  border-radius: 20px; }
+
+.btn {
+  display: flex;
+  align-items: center;
+  margin-top: 4rem;
+  font-size: 2rem;
+  color: #fff;
+  padding: 2rem 7rem; }
+  .btn:hover {
+    cursor: pointer;
+    color: #ccc;
+    transform: scale(1.01); }
+
+.nav {
+  position: fixed;
+  width: 100%;
+  height: 10vh;
+  min-height: 5rem;
+  background: linear-gradient(to right, purple, orange); }
+  .nav .nav-links {
+    display: flex;
+    list-style: none;
+    width: 50%;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto; }
+    .nav .nav-links li a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 2rem; }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%; }
+  .container.banner {
+    padding-top: 10rem;
+    height: 100vh;
+    min-height: 50rem; }
+    .container.banner .title h1 {
+      margin-top: 5rem;
+      margin-bottom: 4rem; }
+    .container.banner .btn-order {
+      border: 1px solid orange;
+      border-radius: 30px;
+      background: linear-gradient(to right, purple, orange);
+      transition: all 0.3s ease-out;
+      margin-right: 1rem; }
+    .container.banner .btn-menu {
+      border: 1px solid #fff;
+      border-radius: 30px;
+      background: linear-gradient(to right, orange, purple);
+      transition: all 0.3s ease-out; }
+  .container.menu-section {
+    margin-top: 10rem;
+    background: rgba(0, 0, 0, 0.5); }
+    .container.menu-section hr {
+      background: linear-gradient(to right, orange, purple);
+      margin-left: 10%;
+      margin-top: 1rem;
+      width: 80%; }
+    .container.menu-section .menus {
+      display: flex;
+      flex-flow: row;
+      justify-content: space-between;
+      margin-top: 2rem; }
+      .container.menu-section .menus .menu {
+        font-size: 2rem;
+        color: #fff;
+        margin: 2rem; }
+        .container.menu-section .menus .menu #menu-table {
+          color: #fff;
+          text-align: left;
+          font-size: 4rem;
+          font-weight: 100;
+          background: purple;
+          border: none;
+          border-radius: 20px; }
+          .container.menu-section .menus .menu #menu-table th {
+            border: none;
+            padding: 2rem;
+            text-transform: uppercase; }
+          .container.menu-section .menus .menu #menu-table tr {
+            padding: 2rem; }
+            .container.menu-section .menus .menu #menu-table tr td {
+              padding: 2rem; }
+  .container.contact {
+    margin-top: 10rem;
+    background: rgba(255, 165, 0, 0.3); }
+    .container.contact hr {
+      background: linear-gradient(to right, orange, purple, orange);
+      margin-left: 10%;
+      margin-top: 1rem;
+      width: 80%; }
+
+footer {
+  display: flex;
+  flex-flow: row wrap;
+  background: linear-gradient(to right, orange, purple, orange); }
+  footer .col {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    text-align: center; }
+    footer .col.navigation a {
+      cursor: pointer;
+      margin-top: 1rem;
+      margin-bottom: 1rem; }
+
+/* Responsive styling */
+@media screen and (max-width: 760px) {
+  .nav {
+    position: relative; }
+    .nav .hamburger {
+      position: absolute;
+      cursor: pointer;
+      right: 5%;
+      top: 50%;
+      transform: translate(-5%, -50%);
+      z-index: 2; }
+      .nav .hamburger .line {
+        width: 3rem;
+        height: .3rem;
+        background: white;
+        margin: .5rem;
+        transition: all 1s ease-out; }
+      .nav .hamburger.active .line:nth-child(2) {
+        margin-left: 1rem;
+        width: 2.5rem; }
+      .nav .hamburger.active .line:last-child {
+        margin-left: 1.5rem;
+        width: 2rem; }
+    .nav .nav-links {
+      position: fixed;
+      background: linear-gradient(to right, purple, orange);
+      height: 100vh;
+      top: 0;
+      width: 100% !important;
+      flex-direction: column;
+      clip-path: circle(5rem at 97% -10%);
+      -webkit-clip-path: circle(5rem at 97% -10%);
+      transition: all 1s ease-out;
+      pointer-events: none; }
+      .nav .nav-links.active {
+        clip-path: circle(150rem at 90% -10%);
+        -webkit-clip-path: circle(150rem at 90% -10%);
+        pointer-events: all; }
+      .nav .nav-links li {
+        opacity: 0; }
+        .nav .nav-links li a {
+          font-size: 3rem; }
+        .nav .nav-links li:first-child {
+          transition: all 0.5s ease 0.2s; }
+        .nav .nav-links li:nth-child(2) {
+          transition: all 0.5s ease 0.4s; }
+        .nav .nav-links li:nth-child(3) {
+          transition: all 0.5s ease 0.6s; }
+        .nav .nav-links li:last-child {
+          transition: all 0.5s ease 0.8s; }
+        .nav .nav-links li.fade {
+          opacity: 1; } }
+
+.container {
+  padding: 1rem;
+  display: flex; }
+
+.center {
+  text-align: center; }
+
+.justify-content {
+  justify-content: center; }
+
+.section {
+  display: flex; }
+
+.row {
+  display: flex;
+  flex-flow: row wrap; }

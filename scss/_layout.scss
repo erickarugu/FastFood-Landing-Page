@@ -1,0 +1,17 @@
+.container{
+    padding: 1rem;
+    display: flex;
+}
+.center{
+    text-align: center;
+}
+.justify-content{
+    justify-content: center;
+}
+.section{
+    display: flex;
+}
+.row{
+    display: flex;
+    flex-flow: row wrap;
+}
